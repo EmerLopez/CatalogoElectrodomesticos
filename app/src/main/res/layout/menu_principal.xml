@@ -24,12 +24,14 @@
         android:layout_height="267dp"
         android:layout_marginTop="60dp"
         app:srcCompat="@drawable/imglobby" />
+
     <Button
         android:id="@+id/btnCatalogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="335dp"
-        android:text="Ver catalogo"/>
+        android:onClick="AbrirCatalogo"
+        android:text="Ver catalogo" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -44,6 +46,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="660dp"
         android:onClick="Abrirlista"
-        android:text="Agregar electrodomesticos" />
+        android:text="Agregar Productos" />
 
 </RelativeLayout>

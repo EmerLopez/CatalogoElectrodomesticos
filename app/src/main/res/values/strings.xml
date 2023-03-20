@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Electrodomesticos Humbes</string>
+    <string name="app_name">Casa Comercial Humbes</string>
 
     <string name="idbtncamara">Tomar foto</string>
+
+
 </resources>

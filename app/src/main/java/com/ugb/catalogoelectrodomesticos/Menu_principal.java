@@ -18,4 +18,9 @@ public class Menu_principal extends AppCompatActivity {
         Intent Abrir = new Intent(this, lista_productos.class);
         startActivity(Abrir);
     }
+
+    public void AbrirCatalogo(View view){
+        Intent acatalogo = new Intent(this, catalogo.class);
+        startActivity(acatalogo);
+    }
 }
