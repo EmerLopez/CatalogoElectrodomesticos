@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Electrodomesticos Humbes</string>
+
+    <string name="idbtncamara">Tomar foto</string>
 </resources>
