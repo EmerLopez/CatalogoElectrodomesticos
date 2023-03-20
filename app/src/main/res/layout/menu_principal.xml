@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9c2c9"
+    tools:context=".Menu_principal">
+
+    <TextView
+        android:id="@+id/lbla"
+        android:text="BIENVENIDO"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:gravity="center"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/imglobby" />
+    <Button
+        android:id="@+id/btnCatalogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:text="Ver catalogo"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/imgagregar" />
+
+    <Button
+        android:id="@+id/btnProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        android:onClick="Abrirlista"
+        android:text="Agregar electrodomesticos" />
+
+</RelativeLayout>
